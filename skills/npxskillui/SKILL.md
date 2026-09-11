@@ -11,8 +11,16 @@ skillui crawls a website, git repo, or local codebase and extracts its complete 
 
 Requires Node.js 22.12+.
 
+This fork is not published to npm. Install from GitHub:
+
 ```bash
-npm install -g skillui
+npm install -g nikships/npxskillui
+```
+
+Or run once without installing:
+
+```bash
+npx github:nikships/npxskillui --url https://example.com
 ```
 
 For ultra mode (scroll frames, hover states, keyframes, video capture), Playwright is also needed:

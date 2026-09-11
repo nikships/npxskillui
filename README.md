@@ -7,10 +7,10 @@
 
   [![npm version](https://img.shields.io/npm/v/skillui?color=%23e8735a&label=skillui&style=flat-square)](https://www.npmjs.com/package/skillui)
   [![npm downloads](https://img.shields.io/npm/dm/skillui?color=%23e8735a&style=flat-square)](https://www.npmjs.com/package/skillui)
-  [![CI](https://img.shields.io/github/actions/workflow/status/amaancoderx/npxskillui/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/amaancoderx/npxskillui/actions/workflows/ci.yml)
+  [![CI](https://img.shields.io/github/actions/workflow/status/nikships/npxskillui/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/nikships/npxskillui/actions/workflows/ci.yml)
   [![Node.js](https://img.shields.io/badge/node-%3E%3D22-brightgreen?style=flat-square)](https://nodejs.org)
-  [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/amaancoderx/npxskillui/blob/main/LICENSE)
-  [![GitHub repo](https://img.shields.io/badge/source-npxskillui-gray?style=flat-square&logo=github)](https://github.com/amaancoderx/npxskillui)
+  [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/nikships/npxskillui/blob/main/LICENSE)
+  [![GitHub repo](https://img.shields.io/badge/source-npxskillui-gray?style=flat-square&logo=github)](https://github.com/nikships/npxskillui)
 
 </div>
 
@@ -32,11 +32,21 @@ Open the output folder, type `claude`, and ask Claude to build your UI. It alrea
 
 ## Install
 
+This fork (v1.4.0) is not published to npm. Install directly from GitHub:
+
 ```bash
-npm install -g skillui
+npm install -g nikships/npxskillui
 ```
 
-> Requires **Node.js 22+**
+Or run it once without installing:
+
+```bash
+npx github:nikships/npxskillui --url https://example.com
+```
+
+The upstream npm package (`npm install -g skillui`) is at v1.3.4 and does not include this fork's updates.
+
+> Requires **Node.js 22.12+**
 
 For **ultra mode** (full visual extraction with Playwright):
 
@@ -196,7 +206,7 @@ skillui --url https://linear.app --out ./design-systems
 | **License** | MIT |
 | **Author** | [Amaan](https://github.com/amaancoderx) |
 | **Homepage** | [skillui.vercel.app](https://skillui.vercel.app) |
-| **Issues** | [GitHub Issues](https://github.com/amaancoderx/npxskillui/issues) |
+| **Issues** | [GitHub Issues](https://github.com/nikships/npxskillui/issues) |
 
 </div>
 
@@ -260,8 +270,8 @@ SkillUI uses pure static analysis. No AI, no API keys, no cloud - everything run
 
 - [npm package](https://www.npmjs.com/package/skillui)
 - [Landing page](https://skillui.vercel.app)
-- [Source code](https://github.com/amaancoderx/npxskillui)
-- [Issues](https://github.com/amaancoderx/npxskillui/issues)
+- [Source code](https://github.com/nikships/npxskillui)
+- [Issues](https://github.com/nikships/npxskillui/issues)
 
 ---
 
