@@ -1,5 +1,4 @@
 node_modules/
-dist/
 
 # Generated design output folders
 *-design/
