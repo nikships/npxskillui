@@ -35,13 +35,7 @@ Open the output folder, type `claude`, and ask Claude to build your UI. It alrea
 This fork (v1.4.0) is not published to npm. Install directly from GitHub:
 
 ```bash
-npm install -g nikships/npxskillui
-```
-
-Or run it once without installing:
-
-```bash
-npx github:nikships/npxskillui --url https://example.com
+npm install -g https://github.com/nikships/npxskillui/archive/refs/heads/main.tar.gz
 ```
 
 The upstream npm package (`npm install -g skillui`) is at v1.3.4 and does not include this fork's updates.
