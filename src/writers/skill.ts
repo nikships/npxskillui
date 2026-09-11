@@ -1178,7 +1178,8 @@ function getKeyStyles(comp: ComponentInfo): string[] {
 function createZip(sourceDir: string, outputPath: string): Promise<void> {
   return new Promise((resolve, reject) => {
     const output = fs.createWriteStream(outputPath);
-    const archive = archiver.default('zip', { zlib: { level: 9 } });
+    // archiver 8 exposes class-based exports instead of a factory
+    const archive = new (archiver as any).ZipArchive({ zlib: { level: 9 } });
 
     output.on('close', resolve);
     archive.on('error', reject);

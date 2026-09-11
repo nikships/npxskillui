@@ -7,7 +7,8 @@
 
   [![npm version](https://img.shields.io/npm/v/skillui?color=%23e8735a&label=skillui&style=flat-square)](https://www.npmjs.com/package/skillui)
   [![npm downloads](https://img.shields.io/npm/dm/skillui?color=%23e8735a&style=flat-square)](https://www.npmjs.com/package/skillui)
-  [![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=flat-square)](https://nodejs.org)
+  [![CI](https://img.shields.io/github/actions/workflow/status/amaancoderx/npxskillui/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/amaancoderx/npxskillui/actions/workflows/ci.yml)
+  [![Node.js](https://img.shields.io/badge/node-%3E%3D22-brightgreen?style=flat-square)](https://nodejs.org)
   [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/amaancoderx/npxskillui/blob/main/LICENSE)
   [![GitHub repo](https://img.shields.io/badge/source-npxskillui-gray?style=flat-square&logo=github)](https://github.com/amaancoderx/npxskillui)
 
@@ -35,7 +36,7 @@ Open the output folder, type `claude`, and ask Claude to build your UI. It alrea
 npm install -g skillui
 ```
 
-> Requires **Node.js 18+**
+> Requires **Node.js 22+**
 
 For **ultra mode** (full visual extraction with Playwright):
 
@@ -189,9 +190,9 @@ skillui --url https://linear.app --out ./design-systems
 | | |
 |---|---|
 | **Package** | [npmjs.com/package/skillui](https://www.npmjs.com/package/skillui) |
-| **Latest version** | `1.3.4` |
+| **Latest version** | `1.4.0` |
 | **First published** | April 8, 2026 |
-| **Last updated** | April 10, 2026 |
+| **Last updated** | September 11, 2026 |
 | **License** | MIT |
 | **Author** | [Amaan](https://github.com/amaancoderx) |
 | **Homepage** | [skillui.vercel.app](https://skillui.vercel.app) |
@@ -206,7 +207,8 @@ skillui --url https://linear.app --out ./design-systems
 
 | Version | Released |
 |---|---|
-| `1.3.4` ⬅ latest | May 8, 2026 |
+| `1.4.0` ⬅ latest | September 11, 2026 |
+| `1.3.4` | May 8, 2026 |
 | `1.3.3` | May 8, 2026 |
 | `1.3.2` | April 10, 2026 |
 | `1.3.1` | April 10, 2026 |
@@ -249,7 +251,7 @@ SkillUI uses pure static analysis. No AI, no API keys, no cloud - everything run
 
 ## Requirements
 
-- Node.js 18+
+- Node.js 22+
 - For `--mode ultra`: Playwright (`npm install playwright && npx playwright install chromium`)
 
 ---

@@ -8,7 +8,7 @@ import * as path from 'path';
 import type { DesignProfile } from './types';
 import type { FullAnimationResult } from './types-ultra';
 
-export const VERSION = '1.3.4';
+export const VERSION = '1.4.0';
 
 // ── Helpers ───────────────────────────────────────────────────────────────
 
