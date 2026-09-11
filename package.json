@@ -10,7 +10,6 @@
     "build": "tsup",
     "typecheck": "tsc --noEmit",
     "start": "node dist/cli.js",
-    "prepare": "tsup",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
